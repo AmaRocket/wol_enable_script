@@ -1,17 +1,8 @@
 #!/bin/bash
 #
-# 02_maas-commission_wol.sh - Enable Wake On LAN when network interface started
-#
-# --- Start MAAS 1.0 script metadata ---
-# name: 00_maas-commission_wol.sh
-# title: Enable Wake On LAN when network interface started
-# description: Enable Wake On LAN when network interface started
-# script_type: commissioning
-# parallel: any
-# timeout: 00:05:00
-# --- End MAAS 1.0 script metadata ---
+# Enable Wake On LAN when network interface started
  
-# Function to check the distribution and install wakeonlan
+# check the distro and install wakeonlan
 install_wakeonlan() {
     if [[ -f /etc/os-release ]]; then
         . /etc/os-release
