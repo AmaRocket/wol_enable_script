@@ -1,4 +1,4 @@
-**Enable WakeOnLan script **
+**Enable WakeOnLan script**
 
 **What it does?**
 - Detect Linux distro
